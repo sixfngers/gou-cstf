@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>JBDance</title>
+        <meta property="og:title" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:url" content="http:///">
+        <meta property="og:description" content="test description.">
+        <meta property="og:image" content="">
+        
+        <meta name="viewport" content="width=640, user-scalable=no"> 
+
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- <script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
+        <script src="js/vendor/modernizr.js"></script>
+    </head>
+    <body>
+        <div class="form-container">
+            
+            <div class="response">
+                <form>
+                    <input type="hidden" name="returned_video_path" value="" />
+                </form>
+            </div>
+
+            <div class="upload-test">
+                <h1>UPLOAD YOUR VIDEO</h1>
+                <form name='upload-video' action="javascript:;" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+                    <input type="file" name="video" value=""  />
+                    <input type="hidden" name="origin" value=""/>
+                    <br />
+                    <input type="submit" name="submit" value="UPLOAD" />
+                </form> 
+            </div>
+            
+            <div class="video-name">
+                <h1>NAME YOUR VIDEO</h1>
+                <form action="http://localhost:8888/getonup/build/flash/deploy/api/index.php/entries/test_form" method="post" accept-charset="utf-8" id="submit">
+                    <input type="text" name="name" value=""  />
+                    <input type="hidden" name="video_path" value=""  />
+                    <input type="hidden" name="s" value=""  />
+                    <br />
+                    <input type="submit" name="submit" value="SUBMIT"  />
+                </form>
+            </div>
+        </div>
+        
+        <div class="upper-bg">
+            <div class="jb-image"></div>
+            <div class="logo"></div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="overlay">
+            <!-- <div class="bar">
+                <div class="text"></div>
+                <div class="buttons">
+                    <div class="wrapper">
+                        <div class="callout"></div>
+                        <div class="social">
+                            <span class="facebook"></span>
+                            <span class="tumblr"></span>
+                            <span class="twitter"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="controls">
+                <div class="autoplay paused"></div>
+                <span class="mute paused">Unmute</span>
+            </div>
+            <!-- <div class="credits">
+                <div class="button"></div>
+                <a class="email" href="mailto:wtf@cannotunsee.us">Email</a>
+                <a class="music" href="http://incompetech.com/" target="_blank">Music Credits</a>
+            </div> -->
+        </div>
+        <div class="image-content">
+            <div class="imagegroup-container">
+                <div class="imagegroup">
+                    <div class="image1 currentimage">
+                        <div class="image"></div>
+                        <!-- <div class="bg"></div> -->
+                    </div>
+                    <div class="image2 nextimage">
+                        <div class="image"></div>
+                        <!-- <div class="bg"></div> -->
+                    </div>
+                    <div class="image3">
+                        <div class="image"></div>
+                        <!-- <div class="bg"></div> -->
+                    </div>
+                    <div class="image4">
+                        <div class="image"></div>
+                        <!-- <div class="bg"></div> -->
+                    </div>
+                    <div class="image5">
+                        <div class="image"></div>
+                        <!-- <div class="bg"></div> -->
+                    </div>
+                </div> 
+            </div>
+
+            <div class="lower-buttons"></div>
+            <div class="movie-info"></div>
+            <div class="footer-container"></div>
+        </div>
+        
+                   
+
+        <div id="player"></div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/vendor/md5.js"></script>
+
+        <!--<script src="js/music.js"></script>-->
+        <script src="js/rotator.js"></script>
+        <script src="js/overlay.js"></script>
+        <script src="js/social.js"></script>
+        <script src="js/main.js"></script>
+        
+
+        
+    </body>
+</html>
+
+<!-- Localized -->

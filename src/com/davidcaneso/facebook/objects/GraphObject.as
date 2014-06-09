@@ -1,0 +1,1 @@
+﻿package com.davidcaneso.facebook.objects{	import flash.events.EventDispatcher;		/**	 * Serves as a Data Type for all	 * return objects	 */	 	public class GraphObject extends EventDispatcher	{				public function GraphObject():void		{		}	}}

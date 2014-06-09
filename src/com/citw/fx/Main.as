@@ -1,0 +1,1 @@
+﻿package com.citw.fx {		public class Main {		public function Main() {			// constructor code		}				public static function flicker(t) {					}	}	}
